@@ -11,6 +11,42 @@
         {
             "name": "ipc_wings_dragon_1",
             "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_wings_typhoon_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_wings_typhoon_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_wings_typhoon_2",
+            "directions": 4
+        },
+        {
+            "name": "ipc_wings_typhoon_3",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_wings_shuttle_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_wings_shuttle_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_wings_shuttle_2",
+            "directions": 4
+        },
+        {
+            "name": "ipc_wings_shuttle_3",
+            "directions": 4
         }
     ]
 }
