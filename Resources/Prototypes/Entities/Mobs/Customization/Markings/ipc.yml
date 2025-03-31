@@ -1,0 +1,382 @@
+
+# ------------------------------------------------------
+# WINGS
+
+- type: marking
+  id: IPCWingsDragon
+  bodyPart: Wings
+  markingCategory: Wings
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_dragon_0
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_dragon_1
+
+- type: marking
+  id: IPCWingsTyphoon
+  bodyPart: Wings
+  markingCategory: Wings
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_typhoon_0
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_typhoon_1
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_typhoon_2
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_typhoon_3
+
+- type: marking
+  id: IPCWingsShuttle
+  bodyPart: Wings
+  markingCategory: Wings
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_shuttle_0
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_shuttle_1
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_shuttle_2
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_shuttle_3
+
+- type: marking
+  id: IPCWingsCommspack
+  bodyPart: Wings
+  markingCategory: Wings
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_commspack_0
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_commspack_1
+    - sprite: Mobs/Customization/ipc/ipc_wings.rsi
+      state: ipc_wings_commspack_2
+
+
+# ------------------------------------------------------
+# HEAD TOP
+
+- type: marking
+  id: IPCAntennaRear
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_rear_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_rear_1
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_rear_2
+
+- type: marking
+  id: IPCAntennaDeedlybopper
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_deedlybopper_0
+
+- type: marking
+  id: IPCAntennaMarineRadar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_marineradar_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_marineradar_1
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_marineradar_2
+
+
+- type: marking
+  id: IPCAntennaOrlanLights # why are they named this way? no idea! lost track.
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_orlanlights_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_orlanlights_1
+
+- type: marking
+  id: IPCAntennaCheekLights
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_cheeklights_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_cheeklights_1
+
+- type: marking
+  id: IPCAntennaHalo
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_halo_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_halo_1
+      
+- type: marking
+  id: IPCAntennaCatEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_catears_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_catears_1
+      
+- type: marking
+  id: IPCAntennaRollcage
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#F0B541"
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_rollcage_0
+      
+- type: marking
+  id: IPCAntennaBigbrain
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_bigbrain_0
+
+- type: marking
+  id: IPCAntennaAirbrakeCentral
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_airbrakecentral_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_airbrakecentral_1
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_airbrakecentral_2
+
+- type: marking
+  id: IPCAntennaAirbrakeDorsal
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_airbrakedorsal_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_airbrakedorsal_1
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_airbrakedorsal_2
+
+- type: marking
+  id: IPCAntennaKnightVisor
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_knightvisor_0
+
+- type: marking
+  id: IPCAntennaFlightVisor
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_flightvisor_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_flightvisor_1
+
+
+# STYLE PLATES
+
+- type: marking
+  id: IPCStyleplateBrow
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_styleplates_brow_0
+
+- type: marking
+  id: IPCStyleplateBurns
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_styleplates_burns_0
+
+- type: marking
+  id: IPCStyleplateCheeks
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_styleplates_cheeks_0
+
+- type: marking
+  id: IPCStyleplateChief
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_styleplates_chief_0
+
+- type: marking
+  id: IPCStyleplateChops
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_styleplates_chops_0
+
+- type: marking
+  id: IPCStyleplateHorns
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_styleplates_horns_0
+
+
+# PAINT
+
+- type: marking
+  id: IPCPaintHeadstripes
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_paint_headstripes_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_paint_headstripes_1
+
+
+# SNOUTS
+
+- type: marking
+  id: IPCSnoutReptile
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_snout_reptile_0
+
+- type: marking
+  id: IPCSnoutVulp
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_snout_vulp_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_snout_vulp_1
+
+- type: marking
+  id: IPCSnoutMask
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_snout_mask_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_snout_mask_1
+
+
+# ------------------------------------------------------
+# HEAD SIDE
+
+- type: marking
+  id: IPCAntennaSideL
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_l_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_l_1
+- type: marking
+  id: IPCAntennaSideR
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_r_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_r_1
+
+- type: marking
+  id: IPCAntennaSideSleekL
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_sleek_l_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_sleek_l_1
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_sleek_l_2
+- type: marking
+  id: IPCAntennaSideSleekR
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_sleek_r_0
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_sleek_r_1
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_antenna_side_sleek_r_2
+
+- type: marking
+  id: IPCCableSideL
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_cable_side_l_0
+- type: marking
+  id: IPCCableSideR
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: Mobs/Customization/ipc/ipc_head_addons.rsi
+      state: ipc_cable_side_r_0

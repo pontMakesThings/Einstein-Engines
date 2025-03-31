@@ -1,0 +1,422 @@
+{
+    "version": 1,
+    "size": { "x": 32, "y": 32 },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "by pont. https://pont.cool",
+    "states": [
+		{
+            "name": "ipc_antenna_rear_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_rear_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_rear_2",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_deedlybopper_0",
+            "directions": 4
+        },
+		
+		{
+			"name": "ipc_antenna_marineradar_0",
+			"directions": 4,
+			"delays": [
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				]
+			]
+		},		
+		{
+			"name": "ipc_antenna_marineradar_1",
+			"directions": 4,
+			"delays": [
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				]
+			]
+		},		
+		{
+			"name": "ipc_antenna_marineradar_2",
+			"directions": 4,
+			"delays": [
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				],
+				[
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20,
+				0.26,
+				0.20,
+				0.18,
+				0.16,
+				0.18,
+				0.20
+				]
+			]
+		},
+		
+		
+		{
+            "name": "ipc_antenna_orlanlights_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_orlanlights_1",
+            "directions": 4
+        },
+		
+        {
+            "name": "ipc_antenna_cheeklights_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_cheeklights_1",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_halo_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_halo_1",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_catears_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_catears_1",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_rollcage_0",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_bigbrain_0",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_airbrakecentral_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_airbrakecentral_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_airbrakecentral_2",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_airbrakedorsal_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_airbrakedorsal_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_airbrakedorsal_2",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_knightvisor_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_flightvisor_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_flightvisor_1",
+            "directions": 4
+        },
+		
+		
+		
+		
+        {
+            "name": "ipc_styleplates_brow_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_styleplates_burns_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_styleplates_cheeks_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_styleplates_chief_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_styleplates_chops_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_styleplates_horns_0",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_paint_headstripes_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_paint_headstripes_1",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_snout_reptile_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_snout_vulp_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_snout_vulp_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_snout_mask_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_snout_mask_1",
+            "directions": 4
+        },
+		
+		
+		
+		
+        {
+            "name": "ipc_antenna_side_l_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_l_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_r_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_r_1",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_antenna_side_sleek_l_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_sleek_l_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_sleek_l_2",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_sleek_r_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_sleek_r_1",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_side_sleek_r_2",
+            "directions": 4
+        },
+		
+		
+        {
+            "name": "ipc_cable_side_l_0",
+            "directions": 4
+        },
+        {
+            "name": "ipc_cable_side_r_0",
+            "directions": 4
+        }
+    ]
+}
